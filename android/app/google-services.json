@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "777007931946",
+    "project_id": "irisfinalnest",
+    "storage_bucket": "irisfinalnest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777007931946:android:19fe157298632e5ea05953",
+        "android_client_info": {
+          "package_name": "com.example.iris_nest_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777007931946-9p206q8qh8rgut98cik0q2sfqhjqlc4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfAZ20XLH3s7zQhJNh4SuXfcqTKyeXnoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777007931946-9p206q8qh8rgut98cik0q2sfqhjqlc4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
