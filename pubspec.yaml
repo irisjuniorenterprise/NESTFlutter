@@ -53,7 +53,7 @@ dependencies:
   flutter_native_timezone:
   connectivity:
   overlay_loader_with_app_icon: ^0.0.3
-  full_screen_image: ^1.0.2
+  full_screen_image: ^2.0.0
 
 dev_dependencies:
   flutter_test:
