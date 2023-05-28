@@ -1,6 +1,5 @@
 import 'package:bubble_bottom_bar/bubble_bottom_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:iris_nest_app/screens/Iris_biblio.dart';
 import 'package:iris_nest_app/screens/blame_screen.dart';
 import 'package:iris_nest_app/screens/contact_screen.dart';
@@ -69,12 +68,12 @@ class _NavigationHomeScreenState extends State<NavigationHomeScreen> {
         ],
       ),
       Column(
-        children:  [
+        children:  const [
           Icon(Icons.home_outlined, size: 30),
           Text(
             'Home',
             style:
-            TextStyle(fontSize: 13, color: DesignCourseAppTheme.IrisBlue,fontFamily: GoogleFonts.montserrat().fontFamily),
+            TextStyle(fontSize: 13, color: DesignCourseAppTheme.IrisBlue,fontFamily: 'Montserrat'),
           )
         ],
       ),

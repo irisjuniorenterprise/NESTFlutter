@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class DesignCourseAppTheme {
   DesignCourseAppTheme._();
@@ -100,30 +99,34 @@ class DesignCourseAppTheme {
 
 }
 TextStyle get subHeadingStyle {
-  return GoogleFonts.montserrat (
+  return TextStyle (
     fontSize: 24,
     fontWeight: FontWeight.bold,
     color: Colors.grey[400],
+    fontFamily: 'Montserrat',
   );
 }
 TextStyle get headingStyle {
-  return GoogleFonts.montserrat (
+  return TextStyle (
     fontSize: 30,
     fontWeight: FontWeight.bold,
+    fontFamily: 'Montserrat',
   );
 }
 
 TextStyle get titleStyle {
-  return GoogleFonts.montserrat (
+  return TextStyle (
     fontSize: 16,
     color: Colors.black,
     fontWeight: FontWeight.w400,
+    fontFamily: 'Montserrat',
   );
 }
 TextStyle get subTitleStyle {
-  return GoogleFonts.montserrat (
+  return TextStyle (
     fontSize: 16,
     color: Colors.grey[600],
     fontWeight: FontWeight.w400,
+    fontFamily: 'Montserrat',
   );
 }

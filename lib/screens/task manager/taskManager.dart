@@ -4,7 +4,6 @@ import 'package:http/http.dart' as http;
 import 'package:date_picker_timeline/date_picker_timeline.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../themes/design_course_app_theme.dart';
@@ -187,27 +186,24 @@ DateTime _selectedDate = DateTime.now();
         initialSelectedDate: DateTime.now(),
         selectionColor: DesignCourseAppTheme.IrisBlue,
         selectedTextColor: Colors.white,
-        dateTextStyle: GoogleFonts.montserrat(
-          textStyle: const TextStyle(
+        dateTextStyle:  const TextStyle(
             fontSize: 20,
             color: Colors.grey,
             fontWeight: FontWeight.w600,
+          fontFamily: 'Montserrat',
           ),
-        ),
-        dayTextStyle: GoogleFonts.montserrat(
-          textStyle: const TextStyle(
+        dayTextStyle: const TextStyle(
             fontSize: 12,
             color: Colors.black,
             fontWeight: FontWeight.w500,
+          fontFamily: 'Montserrat',
           ),
-        ),
-        monthTextStyle: GoogleFonts.montserrat(
-          textStyle: const TextStyle(
+        monthTextStyle: const TextStyle(
             fontSize: 12,
             color: Colors.black,
             fontWeight: FontWeight.w500,
+          fontFamily: 'Montserrat',
           ),
-        ),
         onDateChange: (date) {
           setState(() {
             _selectedDate = date;
@@ -344,13 +340,12 @@ DateTime _selectedDate = DateTime.now();
         child: Center(
           child: Text(
             label,
-            style: GoogleFonts.montserrat(
-              textStyle: TextStyle(
+            style:  TextStyle(
                 fontSize: 16,
                 color: textColor,
                 fontWeight: FontWeight.w600,
+                fontFamily: 'Montserrat',
               ),
-            ),
           ),
         ),
       ),
